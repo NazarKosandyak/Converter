@@ -7,7 +7,7 @@ function convert (){
     let dozens = 0
     let units = 0
 
-  let string = 'IX' //Сюди вводжу число римським 
+  let string = 'IX' //Сюди вводжу число (римське) 
     if (string.startsWith("M")){
         thousands = 1000
         // console.log('1000')
