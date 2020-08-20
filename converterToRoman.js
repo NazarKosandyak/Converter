@@ -1,13 +1,4 @@
 
-// function inOut (string){
-//     this.string = string
-//
-//
-//     console.log("Input: " + string)
-//
-// }
-// inOut('M')
-
 
 function convert (){
 
@@ -140,26 +131,9 @@ if (string.includes("V")){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let sumAll = thousands +  hundreds + dozens + units
     console.log(sumAll)
-    // console.log(hundreds)
-    // console.log(dozens)
-    // console.log(units)
-
+    
 
 
 }
@@ -168,7 +142,4 @@ convert()
 
 
 
-// document.querySelector('input').addEventListener('input',function (e){
-//     document.querySelector('output').textContent=convert(e.target.value)
-// })
 
