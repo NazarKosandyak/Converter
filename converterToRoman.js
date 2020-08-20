@@ -7,7 +7,7 @@ function convert (){
     let dozens = 0
     let units = 0
 
-  let string = 'IX'
+  let string = 'IX' //Сюди вводжу число римським 
     if (string.startsWith("M")){
         thousands = 1000
         // console.log('1000')
@@ -132,7 +132,7 @@ if (string.includes("V")){
 
 
 let sumAll = thousands +  hundreds + dozens + units
-    console.log(sumAll)
+    console.log(sumAll) //Вивід числа (арабське число)
     
 
 
